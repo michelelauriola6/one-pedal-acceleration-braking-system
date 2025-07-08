@@ -1,0 +1,44 @@
+ert_main.o: \
+ C:/Users/feder/POLITE~1/FEDERI~1/MODELB~1/4/controller_imp_ert_rtw/ert_main.c \
+ C:/Users/feder/POLITE~1/FEDERI~1/MODELB~1/4/controller_imp_ert_rtw/controller_imp.h \
+ C:/Users/feder/POLITE~1/FEDERI~1/MODELB~1/4/controller_imp_ert_rtw/rtwtypes.h \
+ C:/PROGRA~1/MATLAB/R2024b/toolbox/target/shared/svd/common/include/MW_AnalogIn.h \
+ C:/PROGRA~1/MATLAB/R2024b/toolbox/target/shared/svd/common/include/MW_SVD.h \
+ C:/Users/feder/POLITE~1/FEDERI~1/MODELB~1/4/controller_imp_ert_rtw/rtwtypes.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/arduinobase/include/MW_arduino_digitalio.h \
+ C:/Users/feder/POLITE~1/FEDERI~1/MODELB~1/4/controller_imp_ert_rtw/controller_imp_types.h \
+ C:/PROGRA~1/MATLAB/R2024b/toolbox/target/shared/svd/common/include/MW_SVD.h \
+ C:/Users/feder/POLITE~1/FEDERI~1/MODELB~1/4/controller_imp_ert_rtw/rt_nonfinite.h \
+ C:/Users/feder/POLITE~1/FEDERI~1/MODELB~1/4/controller_imp_ert_rtw/MW_target_hardware_resources.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/arduinotarget/scheduler/include/arduinoAVRScheduler.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2024b/aCLI/data/packages/arduino/hardware/avr/1.8.3/cores/arduino/Arduino.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2024b/aCLI/data/packages/arduino/hardware/avr/1.8.3/cores/arduino/binary.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2024b/aCLI/data/packages/arduino/hardware/avr/1.8.3/variants/standard/pins_arduino.h
+
+C:/Users/feder/POLITE~1/FEDERI~1/MODELB~1/4/controller_imp_ert_rtw/controller_imp.h:
+
+C:/Users/feder/POLITE~1/FEDERI~1/MODELB~1/4/controller_imp_ert_rtw/rtwtypes.h:
+
+C:/PROGRA~1/MATLAB/R2024b/toolbox/target/shared/svd/common/include/MW_AnalogIn.h:
+
+C:/PROGRA~1/MATLAB/R2024b/toolbox/target/shared/svd/common/include/MW_SVD.h:
+
+C:/Users/feder/POLITE~1/FEDERI~1/MODELB~1/4/controller_imp_ert_rtw/rtwtypes.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/arduinobase/include/MW_arduino_digitalio.h:
+
+C:/Users/feder/POLITE~1/FEDERI~1/MODELB~1/4/controller_imp_ert_rtw/controller_imp_types.h:
+
+C:/PROGRA~1/MATLAB/R2024b/toolbox/target/shared/svd/common/include/MW_SVD.h:
+
+C:/Users/feder/POLITE~1/FEDERI~1/MODELB~1/4/controller_imp_ert_rtw/rt_nonfinite.h:
+
+C:/Users/feder/POLITE~1/FEDERI~1/MODELB~1/4/controller_imp_ert_rtw/MW_target_hardware_resources.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2024b/toolbox/target/supportpackages/arduinotarget/scheduler/include/arduinoAVRScheduler.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2024b/aCLI/data/packages/arduino/hardware/avr/1.8.3/cores/arduino/Arduino.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2024b/aCLI/data/packages/arduino/hardware/avr/1.8.3/cores/arduino/binary.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2024b/aCLI/data/packages/arduino/hardware/avr/1.8.3/variants/standard/pins_arduino.h:
