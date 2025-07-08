@@ -1,0 +1,774 @@
+CV_Database {
+  modelcov {
+    id			    1
+    name		    "BPP_Plausability@(R2024b)"
+    unmangledName	    "BPP_Plausability"
+    dbVersion		    "(R2024b)"
+    canHarnessMapBackToOwner 1
+    refModelcovIds	    [1]
+    topModelcovId	    [1]
+    rootTree		    [0 2 0 0]
+    blockTypes		    [8 9]
+  }
+  root {
+    id			    2
+    modelcov		    1
+    topSlsf		    10
+    firstTest		    4
+    treeNode		    [1 3 0 0]
+    checksum		    [3488719398 3023492243 482447450 1776468206]
+    structuralChecksum	    [547703202 1089358788 3452383890 3366784288]
+    metricChecksum	    [0 0 0 0 2364304662 1546450659 2349349966 3103145274 0 0 0 0]
+    dataSize		    [13 14 0 17 10 0 0]
+    runningTotal	    5
+  }
+  root {
+    id			    3
+    modelcov		    1
+    topSlsf		    11
+    treeNode		    [2 0 0 0]
+    path		    "BPP_Plausability"
+    modelDepth		    1
+    checksum		    [3255496589 2130451723 1325030402 3624267564]
+    structuralChecksum	    [2159162821 2490612605 3985260238 3952493789]
+    metricChecksum	    [0 0 0 0 1720159544 1840799841 3041963096 2644556919 0 0 0 0]
+    dataSize		    [11 12 0 15 6 0 0]
+  }
+  testdata {
+    id			    4
+    modelcov		    1
+    tag			    "Run 2"
+    uniqueId		    "e996eb75-e975-43ed-8b2a-45869a6431b1"
+    linkNode		    [2 0 5]
+    type		    DLGENABLED_TST
+    settings		    [1 1 0 1 0 0 0]
+    modelVersion	    "1.3"
+    creator		    "Michele"
+    lastModifiedDate	    "Fri May 16 17:06:19 2025"
+    blockReductionStatus    "forcedOff"
+    defaultParameterBehavior "Tunable"
+    dbVersion		    "(R2024b)"
+    dbversionToRestore	    "(R2024b)"
+    conditionallyExecuteInputs 1
+    startTime		    739753.7142273033
+    stopTime		    739753.7142358217
+    simStopTime		    5
+    data {
+      decision		      "100 M13x1[3 0 3 0 3 0 3 0 3 0 6 2 4]"
+      condition		      "100 M14x1[4 0 4 0 4 0 4 0 4 0 3 3 2 1]"
+      mcdc		      "100 M17x1[2 0 2 0 2 0 2 0 2 0 7 7 2 1 0 0 0]"
+    }
+    testobjectives	    [0 0 0 0 0 0 0 0 0 0 0 0 0 6]
+    mcdcMode		    1
+    mldref_enable	    "on"
+    covExternalEMLEnable    1
+    forceBlockReductionOff  1
+    covBoundaryRelTol	    0.01
+    covBoundaryAbsTol	    1e-05
+    covSFcnEnable	    1
+  }
+  testdata {
+    id			    5
+    modelcov		    1
+    analyzedModel	    "BPP_Plausability"
+    tag			    "Run 7"
+    uniqueId		    "4c3677c4-52f2-465c-95fe-823620277544"
+    aggregatedIds	    "e996eb75-e975-43ed-8b2a-45869a6431b1,fe15e5c0-440e-4e53-ac89-f8ec118ad048,516eb16a-4fad-417c-a5"
+    "c0-8ffb51b5e9ed,b4741d4d-a49a-4101-87de-ee0ce1fe3e8f,e3f2dd5f-60a1-4ad7-80cc-c19d18bff48e"
+    linkNode		    [2 4 0]
+    settings		    [1 1 0 1 0 0 0]
+    modelVersion	    "notUnique"
+    creator		    "Michele"
+    lastModifiedDate	    "notUnique"
+    blockReductionStatus    "forcedOff"
+    defaultParameterBehavior "Tunable"
+    dbVersion		    "(R2024b)"
+    dbversionToRestore	    "(R2024b)"
+    conditionallyExecuteInputs 1
+    startTime		    739753.7088681597
+    stopTime		    739753.7142358217
+    data {
+      decision		      "100 M13x1[3 0 3 0 3 0 3 0 3 0 30 10 20]"
+      condition		      "100 M14x1[4 0 4 0 4 0 4 0 4 0 15 15 10 5]"
+      mcdc		      "100 M17x1[2 0 2 0 2 0 2 0 2 0 7 7 2 1 0 0 0]"
+      sfcnCovData	      "100 T\"AAFJTQAAAAAOAAAAmAAAAAYAAAAIAAAAEQAAAAAAAAABAAAAAAAAAAEABABNQ09TAQAAAB4AAABTbENvdi5yZX"
+      "N1bHRzLkNvZGVDb3ZEYXRhR3JvdXAAAA4AAABIAAAABgAAAAgAAAANAAAAAAAAAAUAAAAIAAAABgAAAAEAAAABAAAAAAAAAAYAAAAYAAAAAAAA3Q"
+      "IAAAABAAAAAQAAAAEAAAAFAAAADgAAAMgNAAAGAAAACAAAAAkAAAAAAAAABQAAAAgAAAABAAAAmA0AAAEAAAAAAAAAAgAAAJgNAAAAAUlNAAAAAA"
+      "4AAAD4DAAABgAAAAgAAAACAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAUABAAFAAAAAQAAAAUAAABNQ09TAAAAAA4AAACwDAAABgAAAA"
+      "gAAAARAAAAAAAAAAEAAAAAAAAAAQAEAE1DT1MBAAAADQAAAEZpbGVXcmFwcGVyX18AAAAOAAAAcAwAAAYAAAAIAAAAAQAAAAAAAAAFAAAACAAAAA"
+      "0AAAABAAAAAQAAAAAAAAAOAAAAoAIAAAYAAAAIAAAACQAAAAAAAAAFAAAACAAAAHACAAABAAAAAQAAAAAAAAACAAAAcAIAAAQAAAAQAAAA4AAAAE"
+      "ABAABAAQAAuAEAAEACAABoAgAAaAIAAHACAABEYXRhAHNlcmlhbGl6YXRpb24ATWFwAGNvbnRhaW5lcnMARmlsdGVyZWRJbnN0YW5jZXMASW1wbA"
+      "BOYW1lAERlc2NyaXB0aW9uAE1DRENNb2RlAGludGVybmFsLmNvZGVjb3YAaW50MzIuRGF0YQBpbnQzMgBVTktOT1dOAEtlZXBMb2NhbFRlc3RJbm"
+      "ZvUmVmcwBDb2RlQ292RGF0YUdyb3VwAFNsQ292LnJlc3VsdHMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAAAAAAAKAAAACQAAAA"
+      "AAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAAAAAAAQAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAA"
+      "AAAAAAAAAAAAAAAAEAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAAIAAAABAAAABAAAAAAAAAAAAAAAAAAAAAMAAAADAAAAAgAAAAAAAAAAAAAAAAAAAA"
+      "QAAAACAAAAAAAAAAAAAAADAAAAAQAAAAEAAAABAAAABQAAAAEAAAACAAAABgAAAAEAAAAHAAAAAQAAAAIAAAABAAAAAAAAAAQAAAAHAAAAAQAAAA"
+      "MAAAAIAAAAAQAAAAQAAAAJAAAAAQAAAAYAAAAOAAAAAgAAAAAAAAAAAAAAAQAAAAsAAAABAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAADgAAAHgBAAAGAAAACAAAAAIAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAABQAEAA"
+      "sAAAABAAAANwAAAGtleXMAAAAAAAAAdmFsdWVzAAAAAAB1bmlmb3JtaXR5AGtleVR5cGUAAAAAdmFsdWVUeXBlAAAADgAAACgAAAAGAAAACAAAAA"
+      "EAAAAAAAAABQAAAAgAAAABAAAAAAAAAAEAAAAAAAAADgAAACgAAAAGAAAACAAAAAEAAAAAAAAABQAAAAgAAAABAAAAAAAAAAEAAAAAAAAADgAAAD"
+      "AAAAAGAAAACAAAAAkCAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAAAgABAAAAAAAOAAAAMAAAAAYAAAAIAAAABAAAAAAAAAAFAAAACAAAAA"
+      "EAAAAEAAAAAQAAAAAAAAAQAAQAY2hhcg4AAAAwAAAABgAAAAgAAAAEAAAAAAAAAAUAAAAIAAAAAQAAAAMAAAABAAAAAAAAABAAAwBhbnkADgAAAE"
+      "gAAAAGAAAACAAAAA0AAAAAAAAABQAAAAgAAAAGAAAAAQAAAAEAAAAAAAAABgAAABgAAAAAAADdAgAAAAEAAAABAAAAAgAAAAEAAAAOAAAAKAAAAA"
+      "YAAAAIAAAAAQAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAOAAAAMAAAAAYAAAAIAAAABAAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAA"
+      "AAAAAQAAAAAAAAAA4AAAAwAAAABgAAAAgAAAAEAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAABAAAAAAAAAADgAAADAAAAAGAAAACAAAAA"
+      "wAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAABQAEAAAAAAAOAAAAYAIAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAA"
+      "AAAAAFAAQAFwAAAAEAAACKAAAARW51bWVyYXRpb25JbnN0YW5jZVRhZwBDbGFzc05hbWUAAAAAAAAAAAAAAAAAAFZhbHVlTmFtZXMAAAAAAAAAAA"
+      "AAAAAAVmFsdWVzAAAAAAAAAAAAAAAAAAAAAABWYWx1ZUluZGljZXMAAAAAAAAAAAAAAEJ1aWx0aW5DbGFzc05hbWUAAAAAAAAAAAAAAAAADgAAAD"
+      "AAAAAGAAAACAAAAA0AAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAABgAEAAAAAN0OAAAAMAAAAAYAAAAIAAAADQAAAAAAAAAFAAAACAAAAA"
+      "EAAAABAAAAAQAAAAAAAAAGAAQAAgAAAA4AAAAwAAAABgAAAAgAAAANAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAYABAANAAAADgAAAH"
+      "gAAAAGAAAACAAAAAEAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAADgAAAEgAAAAGAAAACAAAAA0AAAAAAAAABQAAAAgAAAAGAAAAAQAAAA"
+      "EAAAAAAAAABgAAABgAAAAAAADdAgAAAAEAAAABAAAABAAAAAIAAAAOAAAAMAAAAAYAAAAIAAAADQAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAA"
+      "AAAAAGAAQAAAAAAA4AAAAwAAAABgAAAAgAAAANAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAYABAADAAAADgAAAEgAAAAGAAAACAAAAA"
+      "0AAAAAAAAABQAAAAgAAAAGAAAAAQAAAAEAAAAAAAAABgAAABgAAAAAAADdAgAAAAEAAAABAAAAAwAAAAQAAAAOAAAAqAEAAAYAAAAIAAAAAQAAAA"
+      "AAAAAFAAAACAAAAAYAAAABAAAAAQAAAAAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAAAAAAAAQAAAAAAAAAFAAQAAQAAAA"
+      "EAAAAAAAAADgAAADgAAAAGAAAACAAAAAIAAAAAAAAABQAAAAgAAAABAAAAAAAAAAEAAAAAAAAABQAEAAEAAAABAAAAAAAAAA4AAAA4AAAABgAAAA"
+      "gAAAACAAAAAAAAAAUAAAAIAAAAAQAAAAAAAAABAAAAAAAAAAUABAABAAAAAQAAAAAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAA"
+      "EAAAAAAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAADgAAADgAAAAGAAAACAAAAAIAAAAAAAAABQAAAAgAAAABAAAAAAAAAAEAAAAAAAAABQAEAA"
+      "EAAAABAAAAAAAAAA4AAAA4AAAABgAAAAgAAAACAAAAAAAAAAUAAAAIAAAAAQAAAAAAAAABAAAAAAAAAAUABAABAAAAAQAAAAAAAAAOAAAASAAAAA"
+      "YAAAAIAAAADAAAAAAAAAAFAAAACAAAAAYAAAABAAAAAQAAAAAAAAAFAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAwAgAABgAAAA"
+      "gAAAABAAAAAAAAAAUAAAAIAAAABgAAAAEAAAABAAAAAAAAAA4AAAA4AAAABgAAAAgAAAACAAAAAAAAAAUAAAAIAAAAAQAAAAAAAAABAAAAAAAAAA"
+      "UABAABAAAAAQAAAAAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAAAAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAADgAAAI"
+      "AAAAAGAAAACAAAAAIAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAABQAEAAsAAAABAAAACwAAAGludDMyLkRhdGEAAAAAAAAOAAAAMAAAAA"
+      "YAAAAIAAAADAAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAFAAAAAAAAAA4AAAB4AAAABgAAAAgAAAACAAAAAAAAAAUAAAAIAAAAAQAAAA"
+      "EAAAABAAAAAAAAAAUABAAFAAAAAQAAAAUAAABEYXRhAAAAAA4AAAAwAAAABgAAAAgAAAAMAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAAA"
+      "UAAAAAAAAADgAAADgAAAAGAAAACAAAAAIAAAAAAAAABQAAAAgAAAABAAAAAAAAAAEAAAAAAAAABQAEAAEAAAABAAAAAAAAAA4AAAA4AAAABgAAAA"
+      "gAAAACAAAAAAAAAAUAAAAIAAAAAQAAAAAAAAABAAAAAAAAAAUABAABAAAAAQAAAAAAAAAOAAAAiAAAAAYAAAAIAAAACQAAAAAAAAAFAAAACAAAAA"
+      "EAAABYAAAAAQAAAAAAAAACAAAAWAAAAAABSU0AAAAADgAAAEgAAAAGAAAACAAAAAIAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAABQAEAA"
+      "UAAAABAAAABQAAAE1DT1MAAAAADgAAAAAAAAA=\""
+    }
+    testRunInfo		    "100 S'runId','runName','testId'{{M[0],T\"\",M[]}}"
+    testobjectives	    [0 0 0 0 0 0 0 0 0 0 0 0 0 7]
+    mcdcMode		    1
+    isDerived		    1
+    covSFcnEnable	    1
+  }
+  metricdata {
+    id			    6
+    metricenumValue	    14
+    metricName		    "cvmetric_Structural_block"
+    size		    21
+    data {
+      rawdata		      "100 M21x1[3 0 3 0 2 0 1 0 1 0 6 1 0 1 0 6 1 0 1 0 6]"
+    }
+  }
+  metricdata {
+    id			    7
+    metricenumValue	    14
+    metricName		    "cvmetric_Structural_block"
+    data {
+      rawdata		      "100 M21x1[3 0 3 0 2 0 1 0 1 0 30 1 0 1 0 30 1 0 1 0 30]"
+    }
+  }
+  typename {
+    id			    8
+    type		    "Sum"
+  }
+  typename {
+    id			    9
+    type		    "Switch"
+  }
+  slsfobj {
+    id			    10
+    name		    "BPP_Plausability"
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [0 11 0 0]
+    metricFlags		    24667
+    metrics		    [23 24 25 26 27 28 29]
+    cvChecksum {
+      u1		      3488719398
+      u2		      3023492243
+      u3		      482447450
+      u4		      1776468206
+    }
+    cvStructuralChecksum    [547703202 1089358788 3452383890 3366784288]
+    cvMetricChecksum	    [2364304662 1546450659 2349349966 3103145274 0 0 0 0]
+  }
+  slsfobj {
+    id			    11
+    name		    "BPP_Plausability"
+    origin		    SIMULINK_OBJ
+    refClass		    -99
+    isAtomicSubsytem	    1
+    modelcov		    1
+    treeNode		    [10 12 0 18]
+    metricFlags		    8283
+    metrics		    [30 31 32 33 34 35]
+    cvChecksum {
+      u1		      3255496589
+      u2		      2130451723
+      u3		      1325030402
+      u4		      3624267564
+    }
+    cvStructuralChecksum    [2159162821 2490612605 3985260238 3952493789]
+    cvMetricChecksum	    [1720159544 1840799841 3041963096 2644556919 0 0 0 0]
+  }
+  slsfobj {
+    id			    12
+    name		    " Demux "
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [11 0 0 13]
+    cvChecksum {
+      u1		      3439279571
+      u2		      2561743879
+      u3		      3663033115
+      u4		      195740233
+    }
+    cvStructuralChecksum    [3439279571 2561743879 3663033115 195740233]
+  }
+  slsfobj {
+    id			    13
+    name		    " SFunction "
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [11 0 12 14]
+    cvChecksum {
+      u1		      3439279571
+      u2		      2561743879
+      u3		      3663033115
+      u4		      195740233
+    }
+    cvStructuralChecksum    [3439279571 2561743879 3663033115 195740233]
+  }
+  slsfobj {
+    id			    14
+    name		    " Terminator "
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [11 0 13 15]
+    cvChecksum {
+      u1		      3439279571
+      u2		      2561743879
+      u3		      3663033115
+      u4		      195740233
+    }
+    cvStructuralChecksum    [3439279571 2561743879 3663033115 195740233]
+  }
+  slsfobj {
+    id			    15
+    name		    "BPP_Plausability"
+    origPath		    "BPP_Plausability:2"
+    origin		    STATEFLOW_OBJ
+    refClass		    1
+    modelcov		    1
+    treeNode		    [11 16 14 0]
+    metricFlags		    8267
+    metrics		    [36 37 38 39 40]
+    cvChecksum {
+      u1		      1128493860
+      u2		      1837836191
+      u3		      4091706685
+      u4		      3975862193
+    }
+    cvStructuralChecksum    [2289573975 3544596075 2057667360 2315049079]
+    cvMetricChecksum	    [2564385452 2485910553 4100406248 691451702 0 0 0 0]
+  }
+  slsfobj {
+    id			    16
+    name		    "eML_blk_kernel"
+    origin		    STATEFLOW_OBJ
+    refClass		    4
+    modelcov		    1
+    treeNode		    [15 0 0 17]
+    metricFlags		    8267
+    metrics		    [41 42 43 44 45]
+    code		    67
+    cvChecksum {
+      u1		      3203953607
+      u2		      3538875031
+      u3		      1763983624
+      u4		      785199315
+    }
+    cvStructuralChecksum    [1749596576 2386511399 1822889598 2781433007]
+    cvMetricChecksum	    [2950704950 2455489594 1128441636 4207356123 0 0 0 0]
+  }
+  slsfobj {
+    id			    17
+    name		    "{eML_blk_kernel();}"
+    origin		    STATEFLOW_OBJ
+    refClass		    5
+    modelcov		    1
+    treeNode		    [15 0 16 0]
+    cvChecksum {
+      u1		      1768726420
+      u2		      2663719104
+      u3		      2976391690
+      u4		      2928307662
+    }
+    cvStructuralChecksum    [1768726420 2663719104 2976391690 2928307662]
+  }
+  slsfobj {
+    id			    18
+    name		    "Repeating\nSequence\nStair"
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [10 19 11 0]
+    metricFlags		    16400
+    metrics		    [68 69]
+    cvChecksum {
+      u1		      2126898966
+      u2		      1939986580
+      u3		      2417617825
+      u4		      2400002739
+    }
+    cvStructuralChecksum    [2126898966 1939986580 2417617825 2400002739]
+  }
+  slsfobj {
+    id			    19
+    name		    "LimitedCounter"
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [18 20 0 22]
+    metricFlags		    16400
+    metrics		    [70 71]
+    cvChecksum {
+      u1		      2490751667
+      u2		      1190777202
+      u3		      3533827778
+      u4		      4065680713
+    }
+    cvStructuralChecksum    [2490751667 1190777202 3533827778 4065680713]
+  }
+  slsfobj {
+    id			    20
+    name		    "Data Type\nPropagation"
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [19 0 0 21]
+    metricFlags		    16384
+    metrics		    [72]
+    cvChecksum {
+      u1		      1582018934
+      u2		      4126767764
+      u3		      3076472891
+      u4		      1474694506
+    }
+    cvStructuralChecksum    [1582018934 4126767764 3076472891 1474694506]
+  }
+  slsfobj {
+    id			    21
+    name		    "Output"
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [19 0 20 0]
+    metricFlags		    16400
+    metrics		    [75 76]
+    cvChecksum {
+      u1		      263423107
+      u2		      1317515632
+      u3		      6495393
+      u4		      4214387966
+    }
+    cvStructuralChecksum    [263423107 1317515632 6495393 4214387966]
+  }
+  slsfobj {
+    id			    22
+    name		    "Out"
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [18 0 19 0]
+    metricFlags		    16400
+    metrics		    [79 80]
+    cvChecksum {
+      u1		      263423107
+      u2		      1317515632
+      u3		      6495393
+      u4		      4214387966
+    }
+    cvStructuralChecksum    [263423107 1317515632 6495393 4214387966]
+  }
+  metric {
+    id			    23
+    dataIdx		    [0 -1]
+    justifiedDataIdx	    [1 0]
+    dataCnt		    [3 0 -1 -1]
+    dataWidth		    14
+  }
+  metric {
+    id			    24
+    dataIdx		    [0 -1]
+    justifiedDataIdx	    [1 0]
+    dataCnt		    [4 0 -1 -1]
+    dataWidth		    15
+  }
+  metric {
+    id			    25
+    dataIdx		    [0 -1]
+    justifiedDataIdx	    [1 0]
+    dataCnt		    [2 0 -1 -1]
+    dataWidth		    18
+  }
+  metric {
+    id			    26
+  }
+  metric {
+    id			    27
+    dataCnt		    [5 1 0 0]
+  }
+  metric {
+    id			    28
+  }
+  metric {
+    id			    29
+    dataIdx		    [0 -1]
+    justifiedDataIdx	    [1 0]
+    dataCnt		    [3 0 -1 -1]
+    dataWidth		    22
+  }
+  metric {
+    id			    30
+    dataIdx		    [2 -1]
+    justifiedDataIdx	    [3 0]
+    dataCnt		    [3 0 -1 -1]
+    dataWidth		    12
+  }
+  metric {
+    id			    31
+    dataIdx		    [2 -1]
+    justifiedDataIdx	    [3 0]
+    dataCnt		    [4 0 -1 -1]
+    dataWidth		    13
+  }
+  metric {
+    id			    32
+    dataIdx		    [2 -1]
+    justifiedDataIdx	    [3 0]
+    dataCnt		    [2 0 -1 -1]
+    dataWidth		    16
+  }
+  sigranger {
+    id			    33
+    modelcov		    1
+    slsfobj		    11
+    cov			    [0 3 1 1 1 3 0 0 0]
+  }
+  metric {
+    id			    34
+    dataIdx		    [1 1]
+    dataCnt		    [4 1 0 0]
+  }
+  metric {
+    id			    35
+  }
+  metric {
+    id			    36
+    dataIdx		    [4 -1]
+    justifiedDataIdx	    [5 0]
+    dataCnt		    [3 0 -1 -1]
+    dataWidth		    10
+  }
+  metric {
+    id			    37
+    dataIdx		    [4 -1]
+    justifiedDataIdx	    [5 0]
+    dataCnt		    [4 0 -1 -1]
+    dataWidth		    11
+  }
+  metric {
+    id			    38
+    dataIdx		    [4 -1]
+    justifiedDataIdx	    [5 0]
+    dataCnt		    [2 0 -1 -1]
+    dataWidth		    14
+  }
+  metric {
+    id			    39
+    dataCnt		    [3 0 0 0]
+  }
+  metric {
+    id			    40
+  }
+  metric {
+    id			    41
+    baseObjs		    [46 47]
+    dataIdx		    [8 6]
+    justifiedDataIdx	    [9 7]
+    dataCnt		    [3 3 -1 -1]
+    dataWidth		    8
+  }
+  metric {
+    id			    42
+    baseObjs		    [53 54]
+    dataIdx		    [8 6]
+    justifiedDataIdx	    [9 7]
+    dataCnt		    [4 4 -1 -1]
+    dataWidth		    9
+  }
+  metric {
+    id			    43
+    baseObjs		    [57]
+    dataIdx		    [8 6]
+    justifiedDataIdx	    [9 7]
+    dataCnt		    [2 2 -1 -1]
+    dataWidth		    12
+  }
+  metric {
+    id			    44
+    dataIdx		    [1 1]
+    dataCnt		    [3 3 0 0]
+  }
+  metric {
+    id			    45
+    baseObjs		    [59 60]
+  }
+  decision {
+    id			    46
+    modelcov		    1
+    slsfobj		    16
+    descriptor		    48
+    outMsgs		    [49]
+    dc			    [1 0 10 0]
+  }
+  decision {
+    id			    47
+    modelcov		    1
+    slsfobj		    16
+    descriptor		    50
+    outMsgs		    [51 52]
+    dc			    [2 0 11 0]
+  }
+  message {
+    id			    48
+    keyNum		    164
+    length		    86
+  }
+  message {
+    id			    49
+    keyNum		    154
+    startChar		    87
+    length		    278
+  }
+  message {
+    id			    50
+    keyNum		    164
+    startChar		    171
+    length		    54
+  }
+  message {
+    id			    51
+    keyNum		    159
+    startChar		    285
+    length		    73
+  }
+  message {
+    id			    52
+    keyNum		    158
+    startChar		    225
+    length		    60
+  }
+  condition {
+    id			    53
+    modelcov		    1
+    slsfobj		    16
+    key			    -1
+    descriptor		    55
+    coverage		    [11 10 0]
+  }
+  condition {
+    id			    54
+    modelcov		    1
+    slsfobj		    16
+    key			    -1
+    descriptor		    56
+    coverage		    [13 12 0]
+  }
+  message {
+    id			    55
+    keyNum		    164
+    startChar		    175
+    length		    23
+  }
+  message {
+    id			    56
+    keyNum		    164
+    startChar		    201
+    length		    23
+  }
+  mcdcentry {
+    id			    57
+    modelcov		    1
+    slsfobj		    16
+    key			    -1
+    numPredicates	    2
+    pathCount		    3
+    pathStorageCount	    1
+    mcdcMode		    MCDCMODE_MASKING
+    bst			    [0 1 -2]
+    expressionTree	    [3 -1 -1 0 3 -1 -1 1 3 2 2 -1]
+    descriptor		    58
+    conditions		    [53 54]
+    dataBaseIdx		    [10 12 14 16 9999 0]
+  }
+  message {
+    id			    58
+    keyNum		    164
+    startChar		    175
+    length		    49
+  }
+  decision {
+    id			    59
+    modelcov		    1
+    slsfobj		    16
+    descriptor		    61
+    outMsgs		    [62 63]
+    dc			    [2 0 0 0]
+  }
+  decision {
+    id			    60
+    modelcov		    1
+    slsfobj		    16
+    relopChkExprIdx	    1
+    descriptor		    64
+    outMsgs		    [65 66]
+    dc			    [2 0 0 0]
+  }
+  message {
+    id			    61
+    keyNum		    162
+    intParams		    [175 197]
+    txtParams		    "BrakePedalPressed - 0"
+    startChar		    175
+    length		    23
+  }
+  message {
+    id			    62
+    keyNum		    35
+    startChar		    -1
+  }
+  message {
+    id			    63
+    keyNum		    41
+    startChar		    -1
+  }
+  message {
+    id			    64
+    keyNum		    162
+    intParams		    [201 223]
+    txtParams		    "BrakePedalPressed - 1"
+    startChar		    201
+    length		    23
+  }
+  message {
+    id			    65
+    keyNum		    35
+    startChar		    -1
+  }
+  message {
+    id			    66
+    keyNum		    41
+    startChar		    -1
+  }
+  codeblock {
+    id			    67
+    slsfobj		    16
+    code		    "function [Controlled_BPP,Warning_BPP,Fault_BPP] = BPP_Plausability(BrakePedalPressed)\n\nWarning_BPP = "
+    "WarningType(0);\nFault_BPP = boolean(0);\nControlled_BPP = boolean(0);\n\nif (BrakePedalPressed == 0 || BrakePedal"
+    "Pressed == 1) \n\n    Controlled_BPP = boolean(BrakePedalPressed);\n        \nelse\n\n    Warning_BPP = WarningTyp"
+    "e(2);\n    Fault_BPP = boolean(1);\n\nend\n\n    \n"
+    hyperlink {
+      line		      [1 7]
+      sTemplate		      "#refobj434_%d"
+    }
+    totalNumOfObjs	    [2 2 1 0]
+  }
+  metric {
+    id			    68
+  }
+  metric {
+    id			    69
+    dataIdx		    [2 -1]
+    justifiedDataIdx	    [3 0]
+    dataCnt		    [3 0 -1 -1]
+    dataWidth		    20
+  }
+  metric {
+    id			    70
+  }
+  metric {
+    id			    71
+    dataIdx		    [4 -1]
+    justifiedDataIdx	    [5 0]
+    dataCnt		    [2 0 -1 -1]
+    dataWidth		    13
+  }
+  metric {
+    id			    72
+    baseObjs		    [73]
+    dataIdx		    [8 6]
+    justifiedDataIdx	    [9 7]
+    dataCnt		    [1 1 -1 -1]
+    dataWidth		    6
+  }
+  decision {
+    id			    73
+    modelcov		    1
+    slsfobj		    20
+    relopChkExprIdx	    -1
+    descriptor		    74
+    dc			    [1 0 10 0]
+  }
+  message {
+    id			    74
+    keyNum		    24
+    txtParams		    "executed"
+    startChar		    -1
+  }
+  sigranger {
+    id			    75
+    modelcov		    1
+    slsfobj		    21
+    cov			    [6 1 1 1 0]
+  }
+  metric {
+    id			    76
+    baseObjs		    [77]
+    dataIdx		    [13 11]
+    justifiedDataIdx	    [14 12]
+    dataCnt		    [1 1 -1 -1]
+    dataWidth		    6
+  }
+  decision {
+    id			    77
+    modelcov		    1
+    slsfobj		    21
+    relopChkExprIdx	    -1
+    descriptor		    78
+    dc			    [1 0 15 0]
+  }
+  message {
+    id			    78
+    keyNum		    24
+    txtParams		    "executed"
+    startChar		    -1
+  }
+  sigranger {
+    id			    79
+    modelcov		    1
+    slsfobj		    22
+    cov			    [8 1 1 1 0]
+  }
+  metric {
+    id			    80
+    baseObjs		    [81]
+    dataIdx		    [18 16]
+    justifiedDataIdx	    [19 17]
+    dataCnt		    [1 1 -1 -1]
+    dataWidth		    6
+  }
+  decision {
+    id			    81
+    modelcov		    1
+    slsfobj		    22
+    relopChkExprIdx	    -1
+    descriptor		    82
+    dc			    [1 0 20 0]
+  }
+  message {
+    id			    82
+    keyNum		    24
+    txtParams		    "executed"
+    startChar		    -1
+  }
+}

@@ -1,0 +1,581 @@
+CV_Database {
+  modelcov {
+    id			    1
+    name		    "ATSS_Plausability@(R2024b)"
+    unmangledName	    "ATSS_Plausability"
+    dbVersion		    "(R2024b)"
+    canHarnessMapBackToOwner 1
+    refModelcovIds	    [1]
+    topModelcovId	    [1]
+    rootTree		    [0 2 0 0]
+    blockTypes		    [7 8]
+  }
+  root {
+    id			    2
+    modelcov		    1
+    topSlsf		    9
+    firstTest		    3
+    treeNode		    [1 0 0 0]
+    checksum		    [4155017816 2890131891 1007946123 468393741]
+    structuralChecksum	    [4155017816 2890131891 1007946123 468393741]
+    dataSize		    [13 0 0 0 10 0 0]
+    runningTotal	    4
+  }
+  testdata {
+    id			    3
+    modelcov		    1
+    tag			    "Run 1"
+    uniqueId		    "4ea84e77-b25c-4232-9555-362ca8ac10af"
+    linkNode		    [2 0 4]
+    type		    DLGENABLED_TST
+    settings		    [1 1 0 1 0 0 0]
+    modelVersion	    "1.5"
+    creator		    "Michele"
+    lastModifiedDate	    "Sat May 17 19:17:08 2025"
+    blockReductionStatus    "forcedOff"
+    defaultParameterBehavior "Tunable"
+    dbVersion		    "(R2024b)"
+    dbversionToRestore	    "(R2024b)"
+    conditionallyExecuteInputs 1
+    startTime		    739754.8039581481
+    stopTime		    739754.8039608449
+    simStopTime		    11
+    data {
+      decision		      "100 M13x1[3 0 3 0 3 0 3 0 3 0 12 7 5]"
+    }
+    testobjectives	    [0 0 0 0 0 0 0 0 0 0 0 0 0 5]
+    mcdcMode		    1
+    mldref_enable	    "on"
+    covExternalEMLEnable    1
+    forceBlockReductionOff  1
+    covBoundaryRelTol	    0.01
+    covBoundaryAbsTol	    1e-05
+    covSFcnEnable	    1
+  }
+  testdata {
+    id			    4
+    modelcov		    1
+    analyzedModel	    "ATSS_Plausability"
+    tag			    "Run 1"
+    uniqueId		    "8a7ba7ce-67fc-423c-90a9-a64c97f83fbb"
+    aggregatedIds	    "4ea84e77-b25c-4232-9555-362ca8ac10af,dd7bc7fc-fa2c-4e99-a38f-6bd8f55647e3,12b20af9-c76d-45a2-8b"
+    "89-52d7ecc69be7"
+    linkNode		    [2 3 0]
+    settings		    [1 1 0 1 0 0 0]
+    modelVersion	    "notUnique"
+    creator		    "Michele"
+    lastModifiedDate	    "notUnique"
+    blockReductionStatus    "forcedOff"
+    defaultParameterBehavior "Tunable"
+    dbVersion		    "(R2024b)"
+    dbversionToRestore	    "(R2024b)"
+    conditionallyExecuteInputs 1
+    startTime		    739754.8022391782
+    stopTime		    739754.8039608449
+    data {
+      decision		      "100 M13x1[3 0 3 0 3 0 3 0 3 0 36 21 15]"
+      sfcnCovData	      "100 T\"AAFJTQAAAAAOAAAAmAAAAAYAAAAIAAAAEQAAAAAAAAABAAAAAAAAAAEABABNQ09TAQAAAB4AAABTbENvdi5yZX"
+      "N1bHRzLkNvZGVDb3ZEYXRhR3JvdXAAAA4AAABIAAAABgAAAAgAAAANAAAAAAAAAAUAAAAIAAAABgAAAAEAAAABAAAAAAAAAAYAAAAYAAAAAAAA3Q"
+      "IAAAABAAAAAQAAAAEAAAAFAAAADgAAAMgNAAAGAAAACAAAAAkAAAAAAAAABQAAAAgAAAABAAAAmA0AAAEAAAAAAAAAAgAAAJgNAAAAAUlNAAAAAA"
+      "4AAAD4DAAABgAAAAgAAAACAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAUABAAFAAAAAQAAAAUAAABNQ09TAAAAAA4AAACwDAAABgAAAA"
+      "gAAAARAAAAAAAAAAEAAAAAAAAAAQAEAE1DT1MBAAAADQAAAEZpbGVXcmFwcGVyX18AAAAOAAAAcAwAAAYAAAAIAAAAAQAAAAAAAAAFAAAACAAAAA"
+      "0AAAABAAAAAQAAAAAAAAAOAAAAoAIAAAYAAAAIAAAACQAAAAAAAAAFAAAACAAAAHACAAABAAAAAQAAAAAAAAACAAAAcAIAAAQAAAAQAAAA4AAAAE"
+      "ABAABAAQAAuAEAAEACAABoAgAAaAIAAHACAABEYXRhAHNlcmlhbGl6YXRpb24ATWFwAGNvbnRhaW5lcnMARmlsdGVyZWRJbnN0YW5jZXMASW1wbA"
+      "BOYW1lAERlc2NyaXB0aW9uAE1DRENNb2RlAGludGVybmFsLmNvZGVjb3YAaW50MzIuRGF0YQBpbnQzMgBVTktOT1dOAEtlZXBMb2NhbFRlc3RJbm"
+      "ZvUmVmcwBDb2RlQ292RGF0YUdyb3VwAFNsQ292LnJlc3VsdHMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAAAAAAAKAAAACQAAAA"
+      "AAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAAAAAAAQAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAA"
+      "AAAAAAAAAAAAAAAAEAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAAIAAAABAAAABAAAAAAAAAAAAAAAAAAAAAMAAAADAAAAAgAAAAAAAAAAAAAAAAAAAA"
+      "QAAAACAAAAAAAAAAAAAAADAAAAAQAAAAEAAAABAAAABQAAAAEAAAACAAAABgAAAAEAAAAHAAAAAQAAAAIAAAABAAAAAAAAAAQAAAAHAAAAAQAAAA"
+      "MAAAAIAAAAAQAAAAQAAAAJAAAAAQAAAAYAAAAOAAAAAgAAAAAAAAAAAAAAAQAAAAsAAAABAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+      "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAADgAAAHgBAAAGAAAACAAAAAIAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAABQAEAA"
+      "sAAAABAAAANwAAAGtleXMAAAAAAAAAdmFsdWVzAAAAAAB1bmlmb3JtaXR5AGtleVR5cGUAAAAAdmFsdWVUeXBlAAAADgAAACgAAAAGAAAACAAAAA"
+      "EAAAAAAAAABQAAAAgAAAABAAAAAAAAAAEAAAAAAAAADgAAACgAAAAGAAAACAAAAAEAAAAAAAAABQAAAAgAAAABAAAAAAAAAAEAAAAAAAAADgAAAD"
+      "AAAAAGAAAACAAAAAkCAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAAAgABAAAAAAAOAAAAMAAAAAYAAAAIAAAABAAAAAAAAAAFAAAACAAAAA"
+      "EAAAAEAAAAAQAAAAAAAAAQAAQAY2hhcg4AAAAwAAAABgAAAAgAAAAEAAAAAAAAAAUAAAAIAAAAAQAAAAMAAAABAAAAAAAAABAAAwBhbnkADgAAAE"
+      "gAAAAGAAAACAAAAA0AAAAAAAAABQAAAAgAAAAGAAAAAQAAAAEAAAAAAAAABgAAABgAAAAAAADdAgAAAAEAAAABAAAAAgAAAAEAAAAOAAAAKAAAAA"
+      "YAAAAIAAAAAQAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAOAAAAMAAAAAYAAAAIAAAABAAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAA"
+      "AAAAAQAAAAAAAAAA4AAAAwAAAABgAAAAgAAAAEAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAABAAAAAAAAAADgAAADAAAAAGAAAACAAAAA"
+      "wAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAABQAEAAAAAAAOAAAAYAIAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAA"
+      "AAAAAFAAQAFwAAAAEAAACKAAAARW51bWVyYXRpb25JbnN0YW5jZVRhZwBDbGFzc05hbWUAAAAAAAAAAAAAAAAAAFZhbHVlTmFtZXMAAAAAAAAAAA"
+      "AAAAAAVmFsdWVzAAAAAAAAAAAAAAAAAAAAAABWYWx1ZUluZGljZXMAAAAAAAAAAAAAAEJ1aWx0aW5DbGFzc05hbWUAAAAAAAAAAAAAAAAADgAAAD"
+      "AAAAAGAAAACAAAAA0AAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAABgAEAAAAAN0OAAAAMAAAAAYAAAAIAAAADQAAAAAAAAAFAAAACAAAAA"
+      "EAAAABAAAAAQAAAAAAAAAGAAQAAgAAAA4AAAAwAAAABgAAAAgAAAANAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAYABAANAAAADgAAAH"
+      "gAAAAGAAAACAAAAAEAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAADgAAAEgAAAAGAAAACAAAAA0AAAAAAAAABQAAAAgAAAAGAAAAAQAAAA"
+      "EAAAAAAAAABgAAABgAAAAAAADdAgAAAAEAAAABAAAABAAAAAIAAAAOAAAAMAAAAAYAAAAIAAAADQAAAAAAAAAFAAAACAAAAAEAAAABAAAAAQAAAA"
+      "AAAAAGAAQAAAAAAA4AAAAwAAAABgAAAAgAAAANAAAAAAAAAAUAAAAIAAAAAQAAAAEAAAABAAAAAAAAAAYABAADAAAADgAAAEgAAAAGAAAACAAAAA"
+      "0AAAAAAAAABQAAAAgAAAAGAAAAAQAAAAEAAAAAAAAABgAAABgAAAAAAADdAgAAAAEAAAABAAAAAwAAAAQAAAAOAAAAqAEAAAYAAAAIAAAAAQAAAA"
+      "AAAAAFAAAACAAAAAYAAAABAAAAAQAAAAAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAAAAAAAAQAAAAAAAAAFAAQAAQAAAA"
+      "EAAAAAAAAADgAAADgAAAAGAAAACAAAAAIAAAAAAAAABQAAAAgAAAABAAAAAAAAAAEAAAAAAAAABQAEAAEAAAABAAAAAAAAAA4AAAA4AAAABgAAAA"
+      "gAAAACAAAAAAAAAAUAAAAIAAAAAQAAAAAAAAABAAAAAAAAAAUABAABAAAAAQAAAAAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAA"
+      "EAAAAAAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAADgAAADgAAAAGAAAACAAAAAIAAAAAAAAABQAAAAgAAAABAAAAAAAAAAEAAAAAAAAABQAEAA"
+      "EAAAABAAAAAAAAAA4AAAA4AAAABgAAAAgAAAACAAAAAAAAAAUAAAAIAAAAAQAAAAAAAAABAAAAAAAAAAUABAABAAAAAQAAAAAAAAAOAAAASAAAAA"
+      "YAAAAIAAAADAAAAAAAAAAFAAAACAAAAAYAAAABAAAAAQAAAAAAAAAFAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAwAgAABgAAAA"
+      "gAAAABAAAAAAAAAAUAAAAIAAAABgAAAAEAAAABAAAAAAAAAA4AAAA4AAAABgAAAAgAAAACAAAAAAAAAAUAAAAIAAAAAQAAAAAAAAABAAAAAAAAAA"
+      "UABAABAAAAAQAAAAAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAEAAAAAAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAADgAAAI"
+      "AAAAAGAAAACAAAAAIAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAABQAEAAsAAAABAAAACwAAAGludDMyLkRhdGEAAAAAAAAOAAAAMAAAAA"
+      "YAAAAIAAAADAAAAAAAAAAFAAAACAAAAAAAAAAAAAAAAQAAAAAAAAAFAAAAAAAAAA4AAAB4AAAABgAAAAgAAAACAAAAAAAAAAUAAAAIAAAAAQAAAA"
+      "EAAAABAAAAAAAAAAUABAAFAAAAAQAAAAUAAABEYXRhAAAAAA4AAAAwAAAABgAAAAgAAAAMAAAAAAAAAAUAAAAIAAAAAAAAAAAAAAABAAAAAAAAAA"
+      "UAAAAAAAAADgAAADgAAAAGAAAACAAAAAIAAAAAAAAABQAAAAgAAAABAAAAAAAAAAEAAAAAAAAABQAEAAEAAAABAAAAAAAAAA4AAAA4AAAABgAAAA"
+      "gAAAACAAAAAAAAAAUAAAAIAAAAAQAAAAAAAAABAAAAAAAAAAUABAABAAAAAQAAAAAAAAAOAAAAiAAAAAYAAAAIAAAACQAAAAAAAAAFAAAACAAAAA"
+      "EAAABYAAAAAQAAAAAAAAACAAAAWAAAAAABSU0AAAAADgAAAEgAAAAGAAAACAAAAAIAAAAAAAAABQAAAAgAAAABAAAAAQAAAAEAAAAAAAAABQAEAA"
+      "UAAAABAAAABQAAAE1DT1MAAAAADgAAAAAAAAA=\""
+    }
+    testRunInfo		    "100 S'runId','runName','testId'{{M[0],T\"\",M[]}}"
+    testobjectives	    [0 0 0 0 0 0 0 0 0 0 0 0 0 6]
+    mcdcMode		    1
+    isDerived		    1
+    covSFcnEnable	    1
+  }
+  metricdata {
+    id			    5
+    metricenumValue	    14
+    metricName		    "cvmetric_Structural_block"
+    size		    21
+    data {
+      rawdata		      "100 M21x1[3 0 3 0 2 0 1 0 1 0 12 1 0 1 0 12 1 0 1 0 12]"
+    }
+  }
+  metricdata {
+    id			    6
+    metricenumValue	    14
+    metricName		    "cvmetric_Structural_block"
+    data {
+      rawdata		      "100 M21x1[3 0 3 0 2 0 1 0 1 0 36 1 0 1 0 36 1 0 1 0 36]"
+    }
+  }
+  typename {
+    id			    7
+    type		    "Sum"
+  }
+  typename {
+    id			    8
+    type		    "Switch"
+  }
+  slsfobj {
+    id			    9
+    name		    "ATSS_Plausability"
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [0 10 0 0]
+    metricFlags		    16465
+    metrics		    [22 23 24 25]
+    cvChecksum {
+      u1		      4155017816
+      u2		      2890131891
+      u3		      1007946123
+      u4		      468393741
+    }
+    cvStructuralChecksum    [4155017816 2890131891 1007946123 468393741]
+  }
+  slsfobj {
+    id			    10
+    name		    "ATSS_Plausability"
+    origin		    SIMULINK_OBJ
+    refClass		    -99
+    isAtomicSubsytem	    1
+    modelcov		    1
+    treeNode		    [9 11 0 17]
+    metricFlags		    81
+    metrics		    [26 27 28]
+    cvChecksum {
+      u1		      3638384966
+      u2		      3777388433
+      u3		      1720653398
+      u4		      1271582268
+    }
+    cvStructuralChecksum    [3638384966 3777388433 1720653398 1271582268]
+  }
+  slsfobj {
+    id			    11
+    name		    " Demux "
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [10 0 0 12]
+    cvChecksum {
+      u1		      3439279571
+      u2		      2561743879
+      u3		      3663033115
+      u4		      195740233
+    }
+    cvStructuralChecksum    [3439279571 2561743879 3663033115 195740233]
+  }
+  slsfobj {
+    id			    12
+    name		    " SFunction "
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [10 0 11 13]
+    cvChecksum {
+      u1		      3439279571
+      u2		      2561743879
+      u3		      3663033115
+      u4		      195740233
+    }
+    cvStructuralChecksum    [3439279571 2561743879 3663033115 195740233]
+  }
+  slsfobj {
+    id			    13
+    name		    " Terminator "
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [10 0 12 14]
+    cvChecksum {
+      u1		      3439279571
+      u2		      2561743879
+      u3		      3663033115
+      u4		      195740233
+    }
+    cvStructuralChecksum    [3439279571 2561743879 3663033115 195740233]
+  }
+  slsfobj {
+    id			    14
+    name		    "ATSS_Plausability"
+    origPath		    "ATSS_Plausability:2"
+    origin		    STATEFLOW_OBJ
+    refClass		    1
+    modelcov		    1
+    treeNode		    [10 15 13 0]
+    metricFlags		    65
+    metrics		    [29 30]
+    cvChecksum {
+      u1		      74170800
+      u2		      1057524677
+      u3		      63713303
+      u4		      200590137
+    }
+    cvStructuralChecksum    [74170800 1057524677 63713303 200590137]
+  }
+  slsfobj {
+    id			    15
+    name		    "eML_blk_kernel"
+    origin		    STATEFLOW_OBJ
+    refClass		    4
+    modelcov		    1
+    treeNode		    [14 0 0 16]
+    metricFlags		    65
+    metrics		    [31 32]
+    code		    40
+    cvChecksum {
+      u1		      1095300898
+      u2		      1177996551
+      u3		      1411070982
+      u4		      1178513541
+    }
+    cvStructuralChecksum    [1095300898 1177996551 1411070982 1178513541]
+  }
+  slsfobj {
+    id			    16
+    name		    "{eML_blk_kernel();}"
+    origin		    STATEFLOW_OBJ
+    refClass		    5
+    modelcov		    1
+    treeNode		    [14 0 15 0]
+    cvChecksum {
+      u1		      1768726420
+      u2		      2663719104
+      u3		      2976391690
+      u4		      2928307662
+    }
+    cvStructuralChecksum    [1768726420 2663719104 2976391690 2928307662]
+  }
+  slsfobj {
+    id			    17
+    name		    "Repeating\nSequence\nStair"
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [9 18 10 0]
+    metricFlags		    16400
+    metrics		    [41 42]
+    cvChecksum {
+      u1		      2126898966
+      u2		      1939986580
+      u3		      2417617825
+      u4		      2400002739
+    }
+    cvStructuralChecksum    [2126898966 1939986580 2417617825 2400002739]
+  }
+  slsfobj {
+    id			    18
+    name		    "LimitedCounter"
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [17 19 0 21]
+    metricFlags		    16400
+    metrics		    [43 44]
+    cvChecksum {
+      u1		      2490751667
+      u2		      1190777202
+      u3		      3533827778
+      u4		      4065680713
+    }
+    cvStructuralChecksum    [2490751667 1190777202 3533827778 4065680713]
+  }
+  slsfobj {
+    id			    19
+    name		    "Data Type\nPropagation"
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [18 0 0 20]
+    metricFlags		    16384
+    metrics		    [45]
+    cvChecksum {
+      u1		      1582018934
+      u2		      4126767764
+      u3		      3076472891
+      u4		      1474694506
+    }
+    cvStructuralChecksum    [1582018934 4126767764 3076472891 1474694506]
+  }
+  slsfobj {
+    id			    20
+    name		    "Output"
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [18 0 19 0]
+    metricFlags		    16400
+    metrics		    [48 49]
+    cvChecksum {
+      u1		      263423107
+      u2		      1317515632
+      u3		      6495393
+      u4		      4214387966
+    }
+    cvStructuralChecksum    [263423107 1317515632 6495393 4214387966]
+  }
+  slsfobj {
+    id			    21
+    name		    "Out"
+    origin		    SIMULINK_OBJ
+    modelcov		    1
+    treeNode		    [17 0 18 0]
+    metricFlags		    16400
+    metrics		    [52 53]
+    cvChecksum {
+      u1		      263423107
+      u2		      1317515632
+      u3		      6495393
+      u4		      4214387966
+    }
+    cvStructuralChecksum    [263423107 1317515632 6495393 4214387966]
+  }
+  metric {
+    id			    22
+    dataIdx		    [0 -1]
+    justifiedDataIdx	    [1 0]
+    dataCnt		    [3 0 -1 -1]
+    dataWidth		    14
+  }
+  metric {
+    id			    23
+  }
+  metric {
+    id			    24
+    dataCnt		    [4 1 0 0]
+  }
+  metric {
+    id			    25
+    dataIdx		    [0 -1]
+    justifiedDataIdx	    [1 0]
+    dataCnt		    [3 0 -1 -1]
+    dataWidth		    22
+  }
+  metric {
+    id			    26
+    dataIdx		    [2 -1]
+    justifiedDataIdx	    [3 0]
+    dataCnt		    [3 0 -1 -1]
+    dataWidth		    12
+  }
+  sigranger {
+    id			    27
+    modelcov		    1
+    slsfobj		    10
+    cov			    [0 3 1 1 1 3 0 0 0]
+  }
+  metric {
+    id			    28
+    dataIdx		    [1 1]
+    dataCnt		    [3 1 0 0]
+  }
+  metric {
+    id			    29
+    dataIdx		    [4 -1]
+    justifiedDataIdx	    [5 0]
+    dataCnt		    [3 0 -1 -1]
+    dataWidth		    10
+  }
+  metric {
+    id			    30
+    dataCnt		    [2 0 0 0]
+  }
+  metric {
+    id			    31
+    baseObjs		    [33 34]
+    dataIdx		    [8 6]
+    justifiedDataIdx	    [9 7]
+    dataCnt		    [3 3 -1 -1]
+    dataWidth		    8
+  }
+  metric {
+    id			    32
+    dataIdx		    [1 1]
+    dataCnt		    [2 2 0 0]
+  }
+  decision {
+    id			    33
+    modelcov		    1
+    slsfobj		    15
+    descriptor		    35
+    outMsgs		    [36]
+    dc			    [1 0 10 0]
+  }
+  decision {
+    id			    34
+    modelcov		    1
+    slsfobj		    15
+    descriptor		    37
+    outMsgs		    [38 39]
+    dc			    [2 0 11 0]
+  }
+  message {
+    id			    35
+    keyNum		    164
+    length		    107
+  }
+  message {
+    id			    36
+    keyNum		    154
+    startChar		    108
+    length		    342
+  }
+  message {
+    id			    37
+    keyNum		    164
+    startChar		    232
+    length		    57
+  }
+  message {
+    id			    38
+    keyNum		    159
+    startChar		    372
+    length		    75
+  }
+  message {
+    id			    39
+    keyNum		    158
+    startChar		    289
+    length		    83
+  }
+  codeblock {
+    id			    40
+    slsfobj		    15
+    code		    "function [Controlled_ATSS,Warning_ATSS,Fault_ATSS] = ATSS_Plausability(AutomaticTransmissionSelectorSta"
+    "te)\n\nControlled_ATSS = TransmissionState(2);\nWarning_ATSS = WarningType(0);\nFault_ATSS = boolean(0);\n\nValidM"
+    "odes = [0 1 2 3 4];\n\nif any(AutomaticTransmissionSelectorState == ValidModes)\n\n    Controlled_ATSS = Transmiss"
+    "ionState(AutomaticTransmissionSelectorState);\n    \nelse\n\n    Warning_ATSS = WarningType(2);\n    Fault_ATSS = "
+    "boolean(1);\n\nend\n\n\n"
+    hyperlink {
+      line		      [1 9]
+      sTemplate		      "#refobj341_%d"
+    }
+    totalNumOfObjs	    [2 0 0 0]
+  }
+  metric {
+    id			    41
+  }
+  metric {
+    id			    42
+    dataIdx		    [2 -1]
+    justifiedDataIdx	    [3 0]
+    dataCnt		    [3 0 -1 -1]
+    dataWidth		    20
+  }
+  metric {
+    id			    43
+  }
+  metric {
+    id			    44
+    dataIdx		    [4 -1]
+    justifiedDataIdx	    [5 0]
+    dataCnt		    [2 0 -1 -1]
+    dataWidth		    13
+  }
+  metric {
+    id			    45
+    baseObjs		    [46]
+    dataIdx		    [8 6]
+    justifiedDataIdx	    [9 7]
+    dataCnt		    [1 1 -1 -1]
+    dataWidth		    6
+  }
+  decision {
+    id			    46
+    modelcov		    1
+    slsfobj		    19
+    relopChkExprIdx	    -1
+    descriptor		    47
+    dc			    [1 0 10 0]
+  }
+  message {
+    id			    47
+    keyNum		    24
+    txtParams		    "executed"
+    startChar		    -1
+  }
+  sigranger {
+    id			    48
+    modelcov		    1
+    slsfobj		    20
+    cov			    [6 1 1 1 0]
+  }
+  metric {
+    id			    49
+    baseObjs		    [50]
+    dataIdx		    [13 11]
+    justifiedDataIdx	    [14 12]
+    dataCnt		    [1 1 -1 -1]
+    dataWidth		    6
+  }
+  decision {
+    id			    50
+    modelcov		    1
+    slsfobj		    20
+    relopChkExprIdx	    -1
+    descriptor		    51
+    dc			    [1 0 15 0]
+  }
+  message {
+    id			    51
+    keyNum		    24
+    txtParams		    "executed"
+    startChar		    -1
+  }
+  sigranger {
+    id			    52
+    modelcov		    1
+    slsfobj		    21
+    cov			    [8 1 1 1 0]
+  }
+  metric {
+    id			    53
+    baseObjs		    [54]
+    dataIdx		    [18 16]
+    justifiedDataIdx	    [19 17]
+    dataCnt		    [1 1 -1 -1]
+    dataWidth		    6
+  }
+  decision {
+    id			    54
+    modelcov		    1
+    slsfobj		    21
+    relopChkExprIdx	    -1
+    descriptor		    55
+    dc			    [1 0 20 0]
+  }
+  message {
+    id			    55
+    keyNum		    24
+    txtParams		    "executed"
+    startChar		    -1
+  }
+}
