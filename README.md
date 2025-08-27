@@ -10,5 +10,5 @@ The project is divided in 4 stages:
 ## Tools
 - MATLAB 2024b
 - Simulink (StateFlow, Embedded Coder, Coverages, Arduino Support Package)
-- SimulIDE
+- SimulIDE
 - Arduino Uno
